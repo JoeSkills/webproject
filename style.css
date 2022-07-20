@@ -1,173 +1,168 @@
 .bg-1 {
-    background-image: url('fish-bg-1.avif');
-    width: 100%;
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.7;
-    filter: brightness(0.8);
-    position: relative;
-   
+  background-image: url('fish-bg-1.avif');
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  filter: brightness(0.8);
+  position: relative;
 }
 .brand-name {
-    font-size: 50px;
-    color: #005D72;
-    font-weight: bold;
-    font-family: 'Inter';
-    position: absolute;
-    bottom:560px;
-    left: 30px;
-} 
+  font-size: 50px;
+  color: #005d72;
+  font-weight: bold;
+  font-family: 'Inter';
+  position: absolute;
+  bottom: 560px;
+  left: 30px;
+}
 .sign-up {
-    font-size: 30px;
-    background-color: #005D72;
-    font-weight: bold;
-    font-family: 'Inter';
-    position: absolute;
-    bottom:560px;
-    left: 1200px;
-    color:white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-} 
+  font-size: 30px;
+  background-color: #005d72;
+  font-weight: bold;
+  font-family: 'Inter';
+  position: absolute;
+  bottom: 560px;
+  left: 1200px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
 .headline {
-    font-size: 50px;
-    color: #005D72;
-    font-weight: bold;
-    font-family: 'Inter';
-    position: absolute;
-    bottom:470px;
-    left: 400px;
-
+  font-size: 50px;
+  color: #005d72;
+  font-weight: bold;
+  font-family: 'Inter';
+  position: absolute;
+  bottom: 470px;
+  left: 400px;
 }
 .sub-headline {
-    font-size: 40px;
-    color: #005D72;
-    font-weight: bold;
-    font-family: 'Inter';
-    position: absolute;
-    bottom:400px;
-    left: 400px;
-
+  font-size: 40px;
+  color: #005d72;
+  font-weight: bold;
+  font-family: 'Inter';
+  position: absolute;
+  bottom: 400px;
+  left: 400px;
 }
 .email-input {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Inter';
-    position: absolute;
-    bottom:250px;
-    left: 400px;
-    width: 515px;
-    height: 100px;
-}.get-started {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Inter';
-    position: absolute;
-    bottom:250px;
-    left: 922px;
-    width: 300px;
-    height: 106px;
-    background-color: #005D72;
-    color: white;
-    border: none;
-    padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Inter';
+  position: absolute;
+  bottom: 250px;
+  left: 400px;
+  width: 515px;
+  height: 100px;
+}
+.get-started {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Inter';
+  position: absolute;
+  bottom: 250px;
+  left: 922px;
+  width: 300px;
+  height: 106px;
+  background-color: #005d72;
+  color: white;
+  border: none;
+  padding: 20px;
 }
 .bg-2 {
-    background-color: black;
-    width: 100%;
-    height:400px;
-    color: white;
-    border-top: ridge 20px #222;
-    position: relative;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  color: white;
+  border-top: ridge 20px #222;
+  position: relative;
 }
 .subtext-1 {
-    font-size: 40px;
-    color: white;
-    font-weight: bold;
-    font-family: 'Inter';
-    margin-left: 100px;
-    margin-top:100px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Inter';
+  margin-left: 100px;
+  margin-top: 100px;
 }
 .money-bg {
-    width: 251px;
-    height:200px;
-    position: absolute;
-    left:1000px;
-    bottom:150px;
+  width: 251px;
+  height: 200px;
+  position: absolute;
+  left: 1000px;
+  bottom: 150px;
 }
 .delivery {
-    width: 251px;
-    height:200px;
-   margin-top: 50px;
-    margin-left: 100px;
+  width: 251px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 .text-2 {
-    font-size: 40px;
-    color: white;
-    font-weight: bold;
-    font-family: 'Inter';
-    position: absolute;
-    left: 500px;
-    top:100px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Inter';
+  position: absolute;
+  left: 500px;
+  top: 100px;
 }
 .smalltext {
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-    font-family: 'Inter';
-    margin-top: 20px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Inter';
+  margin-top: 20px;
 }
 
 .email-2 {
-    bottom:50px;
-    
+  bottom: 50px;
 }
 .started-2 {
-    bottom:50px;
-    
+  bottom: 50px;
 }
 .bg-4 {
-    border-bottom:ridge 20px #222;
+  border-bottom: ridge 20px #222;
 }
 .bg-5 {
-    border: none;
+  border: none;
 }
 .container {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-@media screen and (max-width:500px) {
-    .brand-name {
-        font-size: 30px;
-        bottom: 585px;
-    }
-    .sign-up {
-        left:220px;
-        bottom: 585px;
-        font-size: 20px;
-    }
-    .headline {
-        left: 40px;
-        font-size: 30px;
-
-    }
-    .sub-headline {
-        left: 40px;
-        font-size: 25px;
-        bottom:420px;
-    }
-    .email-input {
-        left:50px;
-        width:150px;
-        height: 50px;
-    }
+@media screen and (max-width: 500px) {
+  .brand-name {
+    font-size: 30px;
+    bottom: 585px;
+  }
+  .sign-up {
+    left: 220px;
+    bottom: 585px;
+    font-size: 20px;
+  }
+  .headline {
+    left: 40px;
+    font-size: 30px;
+  }
+  .sub-headline {
+    left: 40px;
+    font-size: 25px;
+    bottom: 420px;
+  }
+  .email-input {
+    left: 50px;
+    width: 150px;
+    height: 50px;
+  }
 }
