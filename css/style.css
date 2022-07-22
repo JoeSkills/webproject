@@ -1,0 +1,505 @@
+body {
+  margin: 0 auto;
+}
+.fish-bg {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background-image: url('/images/fish-bg.svg');
+}
+.brand-name {
+  position: absolute;
+  width: 275px;
+  height: 72px;
+  left: 63px;
+  top: 38px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #005d72;
+}
+.sign-up {
+  position: absolute;
+  width: 150px;
+  height: 51px;
+  left: 85%;
+  top: 38px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+  background: #005d72;
+  border: none;
+  border-radius: 10px;
+}
+.headline {
+  position: absolute;
+  width: 848px;
+  height: 151px;
+  left: 332px;
+  top: 191px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #005d72;
+}
+.sub-headline {
+  position: absolute;
+  width: 355px;
+  height: 36px;
+  left: 578px;
+  top: 324px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #005d72;
+}
+.email {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 498px;
+  top: 423px;
+  text-align: center;
+  background: #ffffff;
+  border: none;
+}
+.start {
+  position: absolute;
+  width: 300px;
+  height: 53px;
+  left: 803px;
+  top: 423px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 61px;
+
+  text-align: center;
+  background: #005d72;
+  border: none;
+  display: grid;
+  align-items: center;
+
+  color: #ffffff;
+}
+.black-bg {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  left: 0;
+  top: 600px;
+
+  background: #000000;
+  border-top: 10px ridge #222222;
+}
+.bg2 {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0;
+  top: 1010px;
+}
+.bg3 {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0px;
+  top: 1520px;
+
+  background: #000000;
+}
+.bg4 {
+  position: absolute;
+  width: 100%;
+  height: 328px;
+  left: 0px;
+  top: 2030px;
+
+  background: #000000;
+}
+.pricing {
+  position: absolute;
+  width: 100%;
+  height: 48px;
+  left: 16px;
+  top: 700px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #ffffff;
+
+  z-index: 1;
+}
+.pricing-img {
+  position: absolute;
+  width: 575px;
+  height: 251px;
+  left: 700px;
+  top: 700px;
+}
+.delivery {
+  position: absolute;
+  width: 588px;
+  height: 251px;
+  left: 41px;
+  top: 1150px;
+}
+.deliver-text {
+  position: absolute;
+  width: fit-content;
+  height: 48px;
+  right: 0;
+  top: 1200px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+.any {
+  position: absolute;
+  width: 377px;
+  height: 48px;
+  left: 66px;
+  top: 1700px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+.any-details {
+  position: absolute;
+  width: 610px;
+  height: 36px;
+  left: 66px;
+  top: 1750px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #ffffff;
+}
+.bottom {
+  top: 1900px;
+}
+@media screen and (max-width: 500px) {
+  .brand-name {
+    position: absolute;
+    width: 188px;
+    height: 47px;
+    left: 12px;
+    top: 14px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #005d72;
+  }
+  .sign-up {
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 278px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .headline {
+    position: absolute;
+    width: 300px;
+    height: 78px;
+    left: 41px;
+    top: 86px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    text-align: center;
+  }
+  .sub-headline {
+    position: absolute;
+    width: 237px;
+    height: 24px;
+    left: 60px;
+    top: 181px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #005d72;
+  }
+  .email {
+    position: absolute;
+    width: 163px;
+    height: 45px;
+    left: 51px;
+    top: 257px;
+    border: none;
+    background: #ffffff;
+  }
+  .start {
+    position: absolute;
+    width: 139px;
+    height: 48px;
+    left: 219px;
+    top: 257px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+    border: none;
+  }
+  .black-bg {
+    position: absolute;
+    width: 100%;
+    height: 268px;
+    left: 0px;
+    top: 376px;
+
+    background: #000000;
+    border-top: 10px ridge #222222;
+  }
+  .bg2 {
+    position: absolute;
+    width: 100%;
+    height: 268px;
+    left: 0px;
+    top: 650px;
+
+    background: #000000;
+  }
+  .bg3 {
+    position: absolute;
+    width: 100%;
+    height: 268px;
+    left: 0px;
+    top: 927px;
+
+    background: #000000;
+  }
+  .bg4 {
+    position: absolute;
+    width: 100%;
+    height: 268px;
+    left: 0px;
+    top: 1203px;
+
+    background: #000000;
+  }
+  .pricing {
+    position: absolute;
+    width: 223px;
+    height: 72px;
+    left: 16px;
+    top: 437px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+  .pricing-img {
+    position: absolute;
+    width: 131px;
+    height: 128px;
+    left: 250px;
+    top: 400px;
+  }
+  .delivery {
+    position: absolute;
+    width: 131px;
+    height: 128px;
+    left: 16px;
+    top: 705px;
+  }
+  .deliver-text {
+    position: absolute;
+    width: 155px;
+    height: 48px;
+    right: 0;
+    top: 726px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+  .any {
+    position: absolute;
+    width: 217px;
+    height: 24px;
+    left: 41px;
+    top: 977px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+  .any-details {
+    position: absolute;
+    width: 329px;
+    height: 19px;
+    left: 41px;
+    top: 1016px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #ffffff;
+  }
+  .bottom {
+    top: 1100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .brand-name {
+    position: absolute;
+    width: 188px;
+    height: 47px;
+    left: 12px;
+    top: 14px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #005d72;
+  }
+  .sign-up {
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    left: 260px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .headline {
+    position: absolute;
+    width: 300px;
+    height: 78px;
+    left: 41px;
+    top: 86px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    text-align: center;
+  }
+  .sub-headline {
+    position: absolute;
+    width: 237px;
+    height: 24px;
+    left: 60px;
+    top: 181px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #005d72;
+  }
+  .pricing {
+    width: 100px;
+    height: fit-content;
+  }
+  .pricing-img {
+    position: absolute;
+    width: 131px;
+    height: 128px;
+    left: 200px;
+    top: 400px;
+  }
+}
